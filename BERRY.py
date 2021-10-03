@@ -102,8 +102,8 @@ logo = """
 
 """
 
-CorrectUsername = "BERRY"
-CorrectPassword = "ALVIN"
+CorrectUsername = "ALVIN"
+CorrectPassword = "GRAM"
 
 loop = 'true'
 while (loop == 'true'):
