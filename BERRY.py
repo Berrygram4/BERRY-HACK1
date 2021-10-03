@@ -103,39 +103,24 @@ logo = """
 """
 
 CorrectUsername = "BERRY"
-
 CorrectPassword = "ALVIN"
 
 loop = 'true'
-
 while (loop == 'true'):
-
     username = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Username \x1b[1;91m: \x1b[1;97m")
-
     if (username == CorrectUsername):
-
-    	password = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Password \x1b[1;91m: \x1b[1;97m")        if (password == CorrectPassword):
-
+    	password = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Password \x1b[1;91m: \x1b[1;97m")
+        if (password == CorrectPassword):
             print "Logged in successfully as " + username #Dev:Mark_Cornel
-
 	    time.sleep(2)
-
             loop = 'false'
-
         else:
-
             print "\033[1;97mWrong Password"
-
-            os.system('xdg-open https://wa.me/+2349025590517')
-
+            os.system('xdg-open https://www.facebook.com/Mark.Cornel57')
     else:
-
         print "\033[1;97mWrong Username"
-
-        os.system('xdg-open https://wa.me/+2349025590517')
-
+        os.system('xdg-open https://www.facebook.com/Mark.Cornel57')
 idh = []
-
 def main():
 
     os.system("clear")
